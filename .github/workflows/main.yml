@@ -1,0 +1,24 @@
+name: Markdown Lint
+on:
+  push:
+    branches: [ master ]
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v2
+      
+      - name: Lint Markdown
+        uses: avto-dev/markdown-lint@v1.3.1
+        with:
+          output: ./linter/out.md
+          args: ./**/*.md
+      
+      - name: Create Issue From File
+        uses: peter-evans/create-issue-from-file@v2
+        with:
+          title: Link Checker Report
+          content-filepath: ./linter/out.md
+          labels: report, automated issue
