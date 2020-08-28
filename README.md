@@ -1,7 +1,5 @@
 # Links I Like <!-- omit in toc -->
 
-# This is a lint error <!-- omit in toc -->
-
 A list of links to things I like.
 
 ## Contents <!-- omit in toc -->
