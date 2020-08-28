@@ -1,5 +1,7 @@
 name: Markdown Lint
 on:
+  pull_request:
+    branches: [ master ]
   push:
     branches: [ master ]
 
@@ -13,12 +15,4 @@ jobs:
       - name: Lint Markdown
         uses: avto-dev/markdown-lint@v1.3.1
         with:
-          output: ./lint-errors.md
           args: ./**/*.md
-      
-      - name: Create Issue From File
-        uses: peter-evans/create-issue-from-file@v2
-        with:
-          title: Link Checker Report
-          content-filepath: ./lint-errors.md
-          labels: report, automated issue
