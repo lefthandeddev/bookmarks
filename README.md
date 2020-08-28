@@ -4,28 +4,31 @@ A list of links to things I like.
 
 ## Contents <!-- omit in toc -->
 
-- [Frameworks](#frameworks)
-- [Languages](#languages)
-- [Learning](#learning)
-- [Libraries](#libraries)
-- [Other](#other)
-- [Tools](#tools)
+- [Software Dev](#software-dev)
+  - [Frameworks](#frameworks)
+  - [Languages](#languages)
+  - [Learning](#learning)
+  - [Libraries](#libraries)
+  - [Other](#other)
+  - [Tools](#tools)
 
-## Frameworks
+## Software Dev
+
+### Frameworks
 
 - [Express](https://expressjs.com/)
 - [Koa](https://koajs.com/)
 - [React](https://reactjs.org/)
 
-## Languages
+### Languages
 
 - [Typescript](https://www.typescriptlang.org/)
 
-## Learning
+### Learning
 
 - [Exercism](https://exercism.io/)
 
-## Libraries
+### Libraries
 
 - [Ant Design](https://ant.design/)
 - [Day.js](https://day.js.org/)
@@ -33,12 +36,12 @@ A list of links to things I like.
 - [Storybook](https://storybook.js.org/)
 - [styled-components](https://styled-components.com/)
 
-## Other
+### Other
 
 - [DevHints](https://devhints.io/)
 - [Vim Cheat Sheet](https://vim.rtorr.com/)
 
-## Tools
+### Tools
 
 - [Carbon](https://carbon.now.sh/)
 - [CodeSandbox](https://codesandbox.io/)
