@@ -1,5 +1,7 @@
 name: Check markdown links
 on:
+  pull_request:
+    branches: [ master ]
   push:
     branches: [ master ]
   schedule:
