@@ -6,7 +6,7 @@ on:
     branches: [ master ]
 
 jobs:
-  build:
+  lintMarkdown:
     runs-on: ubuntu-latest
 
     steps:
